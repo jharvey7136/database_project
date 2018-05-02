@@ -13,7 +13,7 @@ Sample Database Application
   * Restart Server `sudo /etc/init.d/apache2 restart`
   * Check Apache Open a web browser and navigate to http://localhost/. You should see a message saying It works!
   * Check PHP `php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'`
-2. Clone repo with git `git clone`
+2. Clone repo with git `https://github.com/jharvey7136/database_project.git`
 3. Navigate to the app's root directory through the terminal
 4. Run SQL script to create the database and schema `mysql -u root < create_mail.sql`
 5. Run application `php application.php`
