@@ -47,13 +47,13 @@ ZIPCODES (ZIP, CITY);
 * Update the part's QUANTITY_ON_HAND.
 * The order should be rejected if it makes the updated `QUANTITY_ON_HAND  < 0`
 * When remove an order:
-   Delete the entry in both the ORDER and the ORDER_LINE tables.
-   NEVER forget to restock parts (update the QUANTITY_ON_HAND attribute)
-   When printing pending order list:
-   Print only pending orders (i.e. orders have not been shipped).
-   Print them in the order of received time.
-   Appropriate error-checking and error-handling is expected.
-   A user might enter a new record whose key already exists in the table. Handle this appropriately.
+   Delete the entry in both the ORDER and the ORDER_LINE tables.  
+   NEVER forget to restock parts (update the QUANTITY_ON_HAND attribute)  
+   When printing pending order list:  
+   Print only pending orders (i.e. orders have not been shipped).  
+   Print them in the order of received time.  
+   Appropriate error-checking and error-handling is expected.  
+   A user might enter a new record whose key already exists in the table. Handle this appropriately.  
 
 ### Known Issues
 MySQL functions were deprecated in PHP 5.5.0, and were removed in PHP 7.0.0. This program was written in php5.
